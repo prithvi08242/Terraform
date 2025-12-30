@@ -1,7 +1,6 @@
-resource "aws_instance" "ec2" {
+resource "aws_instance" "launch" {
 
-    ami = var.ami_id
+    ami = var.ami
     instance_type = var.instance_type
   
 }
-

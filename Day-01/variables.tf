@@ -1,12 +1,15 @@
-variable "ami_id" {
-    description = "This is for ami_id"
-    type = string
-    default = ""
+variable "ami" {
+  
+  description = "ami id details"
+  type = string
+  default = ""
+
 }
 
 variable "instance_type" {
 
-    description = "This is for ami_id"
+    description = "instance type"
     type = string
     default = ""
+  
 }
